@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>org.cockpit_project.template</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Template</name>
+  <summary>Template application</summary>
+  <description>
+    <p>
+      Template application for Cockpit
+    </p>
+  </description>
+  <extends>org.cockpit_project.template</extends>
+  <launchable type="cockpit-manifest">template</launchable>
+  <url type="homepage">https://github.com/spotsnel/cockpit-template</url>
+  <url type="bugtracker">https://github.com/spotsnel/cockpit-template/issues</url>
+  <update_contact>me@gbraad.nl</update_contact>
+</component>
