@@ -1,2 +1,4 @@
-# cockpit-headscale
+cockpit-headscale
+=================
+
 Headscale management application for Cockpit

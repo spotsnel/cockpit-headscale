@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>org.cockpit_project.headscale</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Headscale</name>
+  <summary>headscale application</summary>
+  <description>
+    <p>
+      Headscale application for Cockpit
+    </p>
+  </description>
+  <extends>org.cockpit_project.headscale</extends>
+  <launchable type="cockpit-manifest">headscale</launchable>
+  <url type="homepage">https://github.com/spotsnel/cockpit-headscale</url>
+  <url type="bugtracker">https://github.com/spotsnel/cockpit-headscale/issues</url>
+  <update_contact>me@gbraad.nl</update_contact>
+</component>

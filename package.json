@@ -1,8 +1,8 @@
 {
-  "name": "template",
-  "description": "Template application for Cockpit",
+  "name": "headscale",
+  "description": "Headscale application for Cockpit",
   "main": "dist/index.js",
-  "repository": "git@github.com:spotsnel/cockpit-template.git",
+  "repository": "git@github.com:spotsnel/cockpit-headscale.git",
   "author": "Gerard Braad <me@gbraad.nl>",
   "version": "v0.0.1",
   "license": "LGPL-2.1",
@@ -11,10 +11,10 @@
     "dev": "webpack --mode development",
     "rpm": "make rpm",
     "watch": "",
-    "link": "mkdir -p ~/.local/share/cockpit && ln -s $PWD/dist ~/.local/share/cockpit/template",
-    "unlink": "rm ~/.local/share/cockpit/template",
-    "linkusr": "sudo mkdir -p /usr/local/share/cockpit && sudo ln -s $PWD/dist /usr/local/share/cockpit/template",
-    "unlinkusr": "sudo rm ~/.local/share/cockpit/template",
+    "link": "mkdir -p ~/.local/share/cockpit && ln -s $PWD/dist ~/.local/share/cockpit/headscale",
+    "unlink": "rm ~/.local/share/cockpit/headscale",
+    "linkusr": "sudo mkdir -p /usr/local/share/cockpit && sudo ln -s $PWD/dist /usr/local/share/cockpit/headscale",
+    "unlinkusr": "sudo rm ~/.local/share/cockpit/headscale",
     "cockpit": "sudo runuser -u cockpit-wsinstance -- /usr/libexec/cockpit-ws --port=9090 --for-tls-proxy"
   },
   "devDependencies": {
